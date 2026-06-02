@@ -1,0 +1,4513 @@
+@prefix pal: <http://example.org/opioid-toxicity-palliative/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix snomed: <http://snomed.info/id/> .
+
+pal:ID_1000 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_104 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_105 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_11 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_111 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:422400008,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_112 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:235856003,
+        snomed:236423003,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_119 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_12 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:281016006,
+        snomed:422400008,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_122 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:3415004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_126 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:698456001,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_127 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_129 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_13 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:404640003,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_133 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_135 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_136 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:235856003,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_137 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_138 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:3415004,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_141 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:271608006,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_143 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_146 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_150 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_154 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_155 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_157 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:3415004,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_159 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_161 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:236423003,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_163 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_164 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_165 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_167 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_177 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_18 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_19 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:271608006,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_193 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_194 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:3415004,
+        snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_197 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_200 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_203 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_204 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_205 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_209 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_215 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_216 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:40733004,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_221 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_226 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_227 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:422400008,
+        snomed:422587007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_231 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_233 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_234 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:698456001,
+        snomed:73430006,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_24 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_241 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_246 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_247 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_25 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:404640003,
+        snomed:422400008,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_254 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_257 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_267 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_270 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_272 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:404640003,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_274 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:390867000,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_275 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_280 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_281 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_282 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:271608006,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_285 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_289 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182878004,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:281016006,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_292 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182878004,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_293 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_299 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:422400008,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_3 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_30 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_300 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_303 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:281016006,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_304 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:281016006,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_31 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:390867000,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_310 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_313 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_314 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_316 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_318 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:390867000,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_320 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_322 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_325 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_327 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_329 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:271608006,
+        snomed:281016006,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_333 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_334 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:281016006,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_335 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:281016006,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_341 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:13645005,
+        snomed:182838006,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_343 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:40733004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_348 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:182878004,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_349 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_35 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_351 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_352 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:3415004,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_355 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_356 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_358 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_359 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_360 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_363 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:289195008,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_364 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002,
+        snomed:73430006,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_366 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_370 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_374 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_375 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_376 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:3415004,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_377 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_38 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_380 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_382 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_383 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:40733004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:281016006,
+        snomed:289195008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_385 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_387 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_39 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_396 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:3415004,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_397 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_40 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_400 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_402 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_403 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_404 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_405 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_409 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_410 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_412 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:698456001,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_414 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_415 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_42 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_423 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_425 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:182878004,
+        snomed:236423003,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_426 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:404640003,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_429 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:235856003,
+        snomed:390867000,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_43 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_430 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_431 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_433 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_434 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_435 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_437 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:390867000,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_439 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:271608006,
+        snomed:289195008,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_44 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_442 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:3415004 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_443 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:40733004,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_449 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_45 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_450 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:289195008,
+        snomed:3415004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_451 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_452 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:271608006,
+        snomed:289195008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_460 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:236423003,
+        snomed:390867000,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_464 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_465 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:271608006,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_467 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:40733004,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_471 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_473 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:281016006,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_475 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:3415004,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_480 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:3415004 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_485 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:40733004,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:40917007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_488 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:390867000,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_49 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_492 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:40733004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_498 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_50 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:281016006 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_501 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_502 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_503 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:289195008,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_506 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_508 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_511 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182838006,
+        snomed:236423003,
+        snomed:40733004,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:372947007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_515 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:3415004,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_516 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:289195008,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_517 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:404640003,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_518 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:271608006,
+        snomed:372947007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_53 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_533 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_54 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_541 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_549 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:281016006,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_55 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:289195008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_550 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:271608006,
+        snomed:281016006,
+        snomed:404640003,
+        snomed:422400008,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_553 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:13645005,
+        snomed:182838006,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:289195008,
+        snomed:40917007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_559 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_560 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:281016006 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_562 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_563 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_564 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_574 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:390867000,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:271608006,
+        snomed:289195008,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_578 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_581 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_587 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_597 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:73430006,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_599 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:390867000,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_6 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_603 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_605 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_606 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:13645005,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_607 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:40733004,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_608 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_609 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_61 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_611 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182878004,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_612 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:271608006,
+        snomed:289195008,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_613 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182838006,
+        snomed:40733004,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:289195008,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_616 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:236423003,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_618 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_623 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_624 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_625 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_626 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_629 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_630 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_632 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_635 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:271608006,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_637 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:271608006,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_638 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:235856003,
+        snomed:40733004,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_641 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_643 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_645 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:422400008,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_646 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_653 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_654 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_660 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_664 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_668 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_673 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_676 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:40733004,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_681 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:698456001,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_688 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:271608006,
+        snomed:3415004,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_689 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_691 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_693 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_698 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_699 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_700 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_702 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_703 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_705 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_707 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_710 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_711 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:390867000,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_717 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:422587007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_72 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:289195008,
+        snomed:40917007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_721 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:390867000,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:3415004,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_724 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_729 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:281016006,
+        snomed:422400008,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_730 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:281016006,
+        snomed:372947007,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_737 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:289195008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_738 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_739 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:3415004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_742 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_743 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_75 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_753 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_754 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_758 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_762 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_763 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:289195008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_764 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:281016006,
+        snomed:404640003,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_765 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_769 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:404640003,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_771 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_774 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_776 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_777 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:3415004,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_781 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:422587007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_785 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:422587007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_786 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_794 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:13645005,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_798 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:73430006,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_800 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:390867000,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_802 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:73430006,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:281016006,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_810 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:271608006,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_812 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_814 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:235856003,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_817 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_820 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_823 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:422587007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_826 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_828 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_829 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:3415004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_830 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:404640003,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_832 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_833 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:422587007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_834 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:404640003,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_840 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182838006,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_845 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_847 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_850 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:289195008,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_852 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:40733004,
+        snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_855 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:3415004,
+        snomed:372947007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_857 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_860 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_862 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:40733004,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_865 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_868 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:404640003,
+        snomed:40917007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_869 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_87 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:13645005,
+        snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_870 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_873 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:372947007,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_876 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_878 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:289195008,
+        snomed:3415004,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_881 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_882 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_883 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:422400008,
+        snomed:422587007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_885 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002,
+        snomed:698456001,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_892 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_894 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_903 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:236423003,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:3415004,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_904 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:1336085007,
+        snomed:13645005,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_905 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_906 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:236423003,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:404640003,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_907 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_911 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_912 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:289195008,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_913 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:289195008,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_914 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_918 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:40917007,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_92 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_921 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:372947007,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_922 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:3415004,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_926 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_929 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_931 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_933 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_934 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:408490001,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:271608006,
+        snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_936 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:698456001,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_939 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:40733004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:422400008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_94 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:3415004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_940 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:281016006,
+        snomed:372947007,
+        snomed:40917007,
+        snomed:422400008,
+        snomed:422587007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_941 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:236423003,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_944 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:372947007,
+        snomed:404640003,
+        snomed:422587007,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_946 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_947 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:3415004,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_948 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:390867000,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:249966004,
+        snomed:281016006,
+        snomed:7011001,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_958 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:289195008,
+        snomed:372947007,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_96 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:3415004,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_961 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:182878004,
+        snomed:424144002,
+        snomed:698456001,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:271608006,
+        snomed:289195008,
+        snomed:404640003,
+        snomed:422400008 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_965 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_967 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:424848002 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_973 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:182878004,
+        snomed:235856003,
+        snomed:424144002,
+        snomed:788428005 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:3415004,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_976 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Medium" ;
+    pal:hasRiskFactor snomed:235856003,
+        snomed:424144002,
+        snomed:424848002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:404640003,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_979 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182838006,
+        snomed:235856003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:40917007,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_98 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "Low" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:40917007,
+        snomed:422587007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_987 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:408490001,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:271608006,
+        snomed:404640003,
+        snomed:422400008,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_99 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:236423003,
+        snomed:408490001,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:281016006,
+        snomed:289195008,
+        snomed:404640003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_990 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:424144002 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:289195008,
+        snomed:79519003 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_991 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:13645005,
+        snomed:182878004,
+        snomed:390867000,
+        snomed:424144002,
+        snomed:73430006 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:372947007,
+        snomed:40917007 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_996 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:182838006,
+        snomed:424144002,
+        snomed:698456001 ;
+    pal:hasSymptom snomed:24199005,
+        snomed:249966004,
+        snomed:289195008,
+        snomed:3415004,
+        snomed:404640003,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+pal:ID_999 a schema1:Patient ;
+    pal:hasOpioidToxicityRisk "High" ;
+    pal:hasRiskFactor snomed:424144002,
+        snomed:844585000 ;
+    pal:hasSymptom snomed:3415004,
+        snomed:404640003,
+        snomed:7011001 ;
+    pal:hasVital snomed:364075005,
+        snomed:431314004,
+        snomed:86290005 .
+
+snomed:844585000 a schema1:MedicalRiskFactor ;
+    rdfs:label "Opioid treatment naive" .
+
+snomed:390867000 a schema1:MedicalRiskFactor ;
+    rdfs:label "History of repeated overdose" .
+
+snomed:1336085007 a schema1:MedicalRiskFactor ;
+    rdfs:label "Alcohol disorder" .
+
+snomed:40733004 a schema1:MedicalRiskFactor ;
+    rdfs:label "Infection" .
+
+snomed:408490001 a schema1:MedicalRiskFactor ;
+    rdfs:label "Antipsychotic drug therapy" .
+
+snomed:788428005 a schema1:MedicalRiskFactor ;
+    rdfs:label "Stimulant drug therapy" .
+
+snomed:271608006 a schema1:MedicalSymptom ;
+    rdfs:label "Pin point pupils" .
+
+snomed:424848002 a schema1:MedicalRiskFactor ;
+    rdfs:label "Recreational drug use" .
+
+snomed:235856003 a schema1:MedicalRiskFactor ;
+    rdfs:label "Disorder of Liver" .
+
+snomed:236423003 a schema1:MedicalRiskFactor ;
+    rdfs:label "Renal Impairment" .
+
+snomed:3415004 a schema1:MedicalSymptom ;
+    rdfs:label "Cyanosis" .
+
+snomed:422400008 a schema1:MedicalSymptom ;
+    rdfs:label "Vomiting" .
+
+snomed:281016006 a schema1:MedicalSymptom ;
+    rdfs:label "Incoordination" .
+
+snomed:422587007 a schema1:MedicalSymptom ;
+    rdfs:label "Nausea" .
+
+snomed:73430006 a schema1:MedicalRiskFactor ;
+    rdfs:label "Sleep apnea" .
+
+snomed:698456001 a schema1:MedicalRiskFactor ;
+    rdfs:label "Antidepressant drug therapy" .
+
+snomed:13645005 a schema1:MedicalRiskFactor ;
+    rdfs:label "Chronic Obstructive Pulmonary Disease" .
+
+snomed:7011001 a schema1:MedicalSymptom ;
+    rdfs:label "Hallucinations" .
+
+snomed:24199005 a schema1:MedicalSymptom ;
+    rdfs:label "Agitation" .
+
+snomed:249966004 a schema1:MedicalSymptom ;
+    rdfs:label "Twitching" .
+
+snomed:372947007 a schema1:MedicalSymptom ;
+    rdfs:label "Sedation" .
+
+snomed:404640003 a schema1:MedicalSymptom ;
+    rdfs:label "Dizziness" .
+
+snomed:182878004 a schema1:MedicalRiskFactor ;
+    rdfs:label "Opioid medication increase" .
+
+snomed:289195008 a schema1:MedicalSymptom ;
+    rdfs:label "Slurred Speech" .
+
+snomed:182838006 a schema1:MedicalRiskFactor ;
+    rdfs:label "Change of brand or formula" .
+
+snomed:79519003 a schema1:MedicalSymptom ;
+    rdfs:label "Drowsiness" .
+
+snomed:40917007 a schema1:MedicalSymptom ;
+    rdfs:label "Confusion" .
+
+snomed:364075005 a schema1:VitalSign ;
+    rdfs:label "Heart Rate" .
+
+snomed:424144002 a schema1:MedicalRiskFactor ;
+    rdfs:label "Current chronological age" .
+
+snomed:431314004 a schema1:VitalSign ;
+    rdfs:label "Oxygen Saturation" .
+
+snomed:86290005 a schema1:VitalSign ;
+    rdfs:label "Respiratory Rate" .
+
