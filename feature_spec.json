@@ -279,7 +279,7 @@
         "ranges": [
       { "label": "<12",  "min": 10, "max": 12, "weight": 0.25 },
       { "label": "12-24", "min": 13, "max": 25, "weight": 0.65 },
-      { "label": "25>=", "min": 25, "max": 30 , "weight": 0.10 }
+      { "label": ">=25", "min": 26, "max": 30 , "weight": 0.10 }
       ]
       }
     },
