@@ -29,7 +29,7 @@ All patient records within the dataset are fully synthetic, and no real patient 
 
 Note: the synthetic dataset generated is a proof of concept intended to demonstrate the established methodology, and is not a benchmark resource for clinical decision support systems.
 
-### Dataset
+### Visualizations
 All visualizations generated as part of the analysis within `dataset_analysis.ipynb`, `ML_evaluation.ipynb`, and `survey_analysis.ipynb` have also been saved as `.pdf` files (e.g `symptom_count.pdf` or, `LG-confusion.pdf`). These figures are used directly within the project's report. 
 
 ### Requirements
